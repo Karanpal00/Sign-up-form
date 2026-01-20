@@ -10,12 +10,14 @@
     <div class="slogan">Night's Watch</div>
     <div class="sign-up-form">
         <div class="sign-up-form header">
-            <p>Night gathers, and now my watch begins. It shall not end until my death. 
-                I shall take no wife, hold no lands, father no children. 
-                I shall wear no crowns and win no glory. I shall live and die at my post.
-                I am the sword in the darkness. I am the watcher on the walls. 
-                I am the shield that guards the realms of men. 
-                I pledge my life and honor to the Night's Watch, for this night and all the nights to come.
+            <p>
+                "Night gathers, and now my watch begins. It shall not end until my
+                death. I shall take no wife, hold no lands, father no children. I shall
+                wear no crowns and win no glory. I shall live and die at my post. I
+                am the sword in the darkness. I am the watcher on the walls. I am 
+                the shield that guards the realms of men. I pledge my life and 
+                honor to the Night's Watch, for this night and all the nights to 
+                come."<br><br> ―The Night's Watch oath
             </p>
         </div>
         <div class="sign-up-form main">
@@ -24,26 +26,29 @@
                     <p>Join the Night's Watch</p>
                     <div>
                         <label for="first-name" class="control-pos1">First Name</label>
-                        <input type="text" id="first-name" name="first-name" placeholder="Jon" required>
+                        <input type="text" id="first-name" name="first-name" placeholder="Jon">
+
                         <label for="last-name" class="control-pos2">Last Name</label>
-                        <input type="text" id="last-name" name="last-name" placeholder="Snow" required>
+                        <input type="text" id="last-name" name="last-name" placeholder="Snow">
                     </div>
                     <div>
                         <label for="email" class="control-pos1">Email</label>
-                        <input type="email" id="email" name="email" placeholder="JonSnow@kingInTheNorth.co" required>
+                        <input type="email" id="email" name="email" placeholder="JonSnow@kingInTheNorth.co">
+
                         <label for="phone-number" class="control-pos2">Phone Number</label>
-                        <input type="number" id="phone-number" name="phone-number" minlength="10" maxlength="10" placeholder="1234567890" required>
+                        <input type="tel" id="phone-number" name="phone-number" minlength="10" maxlength="10" placeholder="1234567890">
                     </div>
                     <div>
                         <label for="password" class="control-pos1">Password</label>
-                        <input type="password" id="password" name="password" minlength="8" required>
+                        <input type="password" id="password" name="password" minlength="8">
+
                         <label for="confirm-password" class="control-pos2">Confirm Password</label>
-                        <input type="password" id="confirm-password" name="confirm-password" minlength="8" required>
+                        <input type="password" id="confirm-password" name="confirm-password" minlength="8">
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="sign-up-form footer">
                     <button type="submit">Join</button>
-                    <p class="sign-up-form footer">Already joined the watch?<a href="#">Log in</a></p>
+                    <p>Already joined the watch? <a href="#">Log in</a></p>
                 </fieldset>
             </form>
         </div>
